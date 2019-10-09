@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ajout de créneau </title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <link rel="stylesheet" href="Formulaire.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Ajout de créneau</h1>
+            
+        </header></br>
+		
+		<center>
+        <section id="form" class="content">
+            <form action="agenda.html" method="get">
+                <div class="columns">
+                    <div class="column">
+                       
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <label class="required" for="title">Titre</label>
+                        <input type="text" name="title" minlength="3" required />
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <label for="desc">Description</label>
+                        <textarea name="desc" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column">
+                       
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <label class="required" for="dateStart">Début du créneau</label>
+                        <input type="datetime-local" required name="dateStart" />
+                    </div>
+                    <div class="column">
+                        <label class="required" for="dateEnd">Fin du créneau</label>
+                        <input type="datetime-local" required name="dateEnd" />
+                    </div>
+                </div>
+
+                <div clas="columns"><div class="column">
+                        <div>
+                           
+                </div></div>
+
+                <div class="columns">
+                        <div class="column">
+                            <input type="submit" value="<Valider">
+                        </div>
+                    </div>
+            </form>
+        </section>
+		</center>
+		
+    </body>
+</html>

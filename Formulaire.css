@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+:root {
+    --border: 1px solid rgba(0, 0, 0, 0.25);
+}
+html {
+    font-family: "Noto Sans";
+    font-size: 112.5%;
+    background: rgb(230, 230, 236);
+}
+body {
+    margin: 0;
+}
+
+header {
+    color: Black;
+    background-color:#E89D69;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+hover {
+  .day {
+   display: inline-block;
+    .hour {
+      width: 110px;
+    }
+  }
+}
+header h1,
+header h2 {  
+    margin: 0.25em;
+}
+
+.content {
+    padding: 1em;
+    margin: 1.5em 25%;
+    background: white;
+    font-family: "Noto Sans";
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+}
+.content a {
+    text-decoration: none;
+    transition: color 0.25s ease-out;
+    color: #5a9cc7;
+}
+.content a:hover {
+    color: #478dc7;
+}
+.content ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.column {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+    width: 100%;
+}
+#form select, #form input[type="text"], #form input[type="password"], #form input[type="email"], #form input[type="tel"], #form input[type="datetime-local"], #form textarea, #form input[type="submit"] {
+    padding: 0.25em;
+    font-size: 0.825em;
+    font-family: "Noto Sans";
+}
+label.required:after {
+    color: red;
+}
